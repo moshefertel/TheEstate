@@ -304,22 +304,13 @@ h3 {
 }
 
 
-.carousel-control-next-icon {
-  transform: scale(4);
-  transition-duration: .3s;
-    display: block;
-  padding: 10px;
+.carousel-control-next-icon, .carousel-control-prev-icon {
+transform:scale(4);
+  transition-duration:.3s;
 }
 
-.carousel-control-next-icon:hover {
-  transform: scale(4.2);
-}
-
-.carousel-control-prev-icon {
-  transform: scale(4);
-  transition-duration: .3s;
-  display: block;
-  padding:10px;
+.carousel-control-next-icon:hover, .carousel-control-prev-icon:hover {
+transform:scale(4.2);
 }
 
 .carousel-control-prev-icon:hover {
