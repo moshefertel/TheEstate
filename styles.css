@@ -305,12 +305,14 @@ h3 {
 
 
 .carousel-control-next-icon {
-  transform: scale(1);
-  transition-duration: .3s
+  transform: scale(4);
+  transition-duration: .3s;
+    display: block;
+  padding: 10px;
 }
 
 .carousel-control-next-icon:hover {
-  transform: scale(1.2);
+  transform: scale(4.2);
 }
 
 .carousel-control-prev-icon {
