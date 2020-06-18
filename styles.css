@@ -314,12 +314,14 @@ h3 {
 }
 
 .carousel-control-prev-icon {
-  transform: scale(1);
+  transform: scale(4);
   transition-duration: .3s;
+  display: block;
+  padding:10px;
 }
 
 .carousel-control-prev-icon:hover {
-  transform: scale(1.2);
+  transform: scale(4.2);
 }
 
 .h3-dogname {
