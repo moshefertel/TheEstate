@@ -24,6 +24,7 @@ body {
   text-align: center;
   margin-top: 10%;
   margin-bottom: 30%;
+  overflow: hidden;
 }
 
  #schedule hr{
